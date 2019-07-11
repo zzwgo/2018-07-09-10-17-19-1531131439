@@ -27,10 +27,10 @@ public class Person {
     }
 
     public String introduce(){
-        return basicIntroduc();
+        return basicIntroduce();
     }
 
-    public String basicIntroduc(){
+    public String basicIntroduce(){
         return "My name is " + this.getName() + ". I am " + this.getAge() + " years old.";
     }
 }
